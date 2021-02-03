@@ -1,0 +1,165 @@
+*
+{
+  margin:0;
+  padding:0;
+  font-family:sans-serif;
+}
+
+body
+{
+  background-color:#34495e;
+}
+
+
+.top-most
+{
+  height:10vh;
+  width:100vw;
+  background-color:#1abc9c;
+  transition: all ease-in 0.5s;
+  text-align:center;
+  padding:10px 0 0 0;
+  visibility: hidden;
+}
+
+#notification
+{
+  color:white;
+  font-size:25px;
+  line-height:10vh;
+}
+
+.add
+{
+  transition: all ease-in 0.5s;
+  width:100vw;
+  height: auto;
+  text-align:center;
+  padding-top:50px;
+}
+
+input
+{
+  display:block;
+  margin-left:50%;
+  margin-right:auto;
+  transform:translate(-50%,0);
+  border:none;
+  height:40px;
+  margin-top:10px;
+  line-height:30px;
+  font-size:25px;
+  text-indent:15px;
+}
+
+input[type="text"]:focus
+{
+  outline:none;
+}
+
+input[type="submit"]
+{
+  width:20%;
+  text-align:center;
+  text-indent:0;
+  background:transparent;
+  outline:1px solid #1abc9c;
+  color:white;
+  margin-top:20px;
+}
+
+table
+{
+    transition: all ease-in 0.5s;
+  width:100vw;
+  text-align:center;
+}
+
+tr,td
+{
+  color:white;
+  font-size:20px;
+  padding:15px 0 15px 0; 
+}
+
+td
+{
+  outline:1px solid #1abc9c;
+}
+
+.result
+{
+  margin-top:50px;
+  transition: all ease-in 0.5s;
+}
+
+button
+{
+  background:transparent;
+  color:white;
+  border:none;
+  cursor:pointer;
+  font-size:20px;
+  padding-left:20px;
+  padding-right:20px;
+  transition: all ease-in 0.5s;
+}
+
+    #cross
+    {
+        font-size:30px;
+        color:white;
+        position:absolute;
+        top:15px;
+        right:30px;
+        cursor:pointer;
+    }
+
+
+    #editor
+    {
+        cursor: pointer;
+    }
+
+    .update-pop
+    {
+        transition: all ease-in 0.5s;
+        width:100vw;
+        height:100vh;
+        background-color:#1abc9c;
+        border-radius:8px;
+        position:absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    section
+    {
+        transition: all ease-in 0.5s;
+        position: absolute;
+        top:40%;
+        left:50%;
+        transform: translate(-50%,0);
+        text-align:center;
+    }
+
+   section button
+    {
+            margin-top:50px;
+            border:1px solid white;
+            padding:10px;
+    }
+
+    section button:focus
+    {
+        outline:none;
+    }
+
+    #dell:focus
+    {
+            outline:none;
+    }
